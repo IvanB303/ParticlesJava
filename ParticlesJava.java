@@ -1,9 +1,14 @@
+import java.lang.*
+import java.io.*
+import java.util.*
+
+
 class ParticleProg{
 
 
 public static void main (String args[]){
         
-    int MAX_PARTICLES=10000;
+    int MAX_PARTICLES=100;
     int HEIGHT=640,posx;
     int WIDTH=480,posy;
     double maxMass=6.0,velx,vely;
