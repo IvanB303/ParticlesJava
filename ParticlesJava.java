@@ -13,16 +13,18 @@ public static void main (String args[]){
     int WIDTH=480,posy;
     double maxMass=6.0,velx,vely;
     Particle[] theArray;
+    Particle testPart;
 
     Particle[] theArray=new Particle[MAXPARTICLES];
-
-    for (int i=0; i<MAXPARTICLES; i++){
+    testPart=new Particle();
+    System.out.println("Initialised particle " + testPart.getIndex);
+    /* for (int i=0; i<MAXPARTICLES; i++){
         posx=(int) (WIDTH*Math.random());
         posy=(int) (HEIGHT*Math.random());
         theArray[i].setIndex(i);
         theArray[i].setMass((MaxMass*Math.random()));
         theArray[i].sePosition(posx,posy);
-         }
+         } */
 
 
 }
