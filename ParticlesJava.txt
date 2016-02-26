@@ -35,6 +35,14 @@ public class Particle{
     private double vy;
 
 
+Particle(){
+this.setIndex(0);
+this.setPosition(0,0);
+this.setMass(0.0);
+this.setVelocity(0.0,0.0);
+}
+
+
 
 public void setIndex(int newIndex){
     this.index=newIndex;
