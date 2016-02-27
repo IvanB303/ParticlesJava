@@ -76,16 +76,16 @@ public static void main (String args[]){
     double maxMass=6.0,velx,vely;
     Particle[] theArray;
 
-    Particle[] theArray=new Particle[MAXPARTICLES];
+    Particle[] theArray=new Particle[MAX_PARTICLES];
     Particle testPart=new Particle();
     System.out.println("Initialised particle " + testPart.getIndex());
-    /* for (int i=0; i<MAXPARTICLES; i++){
+    for (int i=0; i<MAX_PARTICLES; i++){
         posx=(int) (WIDTH*Math.random());
         posy=(int) (HEIGHT*Math.random());
         theArray[i].setIndex(i);
         theArray[i].setMass((MaxMass*Math.random()));
         theArray[i].sePosition(posx,posy);
-         } */
+         }
 
 
 } 
