@@ -1,3 +1,4 @@
+package Particle
 import java.lang.*
 import java.io.*
 import java.util.*
@@ -13,10 +14,9 @@ public static void main (String args[]){
     int WIDTH=480,posy;
     double maxMass=6.0,velx,vely;
     Particle[] theArray;
-    Particle testPart;
 
     Particle[] theArray=new Particle[MAXPARTICLES];
-    testPart=new Particle();
+    Particle testPart=new Particle();
     System.out.println("Initialised particle " + testPart.getIndex);
     /* for (int i=0; i<MAXPARTICLES; i++){
         posx=(int) (WIDTH*Math.random());
