@@ -84,7 +84,7 @@ public static void main (String args[]){
         posy=(int) (HEIGHT*Math.random());
         theArray[i].setIndex(i);
         theArray[i].setMass((MaxMass*Math.random()));
-        theArray[i].sePosition(posx,posy);
+        theArray[i].setPosition(posx,posy);
          }
 
 
