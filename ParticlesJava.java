@@ -89,6 +89,12 @@ public static void main (String args[]){
         theArray[i].setMass((maxMass*Math.random()));
         theArray[i].setPosition(posx,posy);
          }
+         
+    for (int i=0; i<MAX_PARTICLES; i++){
+         System.out.println("Index is " + theArray[i].getIndex());
+         System.out.println("PosX is " + theArray[i].getPosition(1));
+         System.out.println("PosY is " + theArray[i].getPosition(0));
+         }
 
 
 } 
