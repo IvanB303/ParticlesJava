@@ -44,7 +44,7 @@ public int getIndex(){
     return index;
 }
 public int getPosition(int flag){
-    if(flag=1){
+    if(flag==1){
     return x;}
     else { 
     return y;}
@@ -53,7 +53,7 @@ public double getMass(double newMass){
     return mass;
 }
 public double getVelocity(int flag){
-    if(flag=1){
+    if(flag==1){
     return vx;}
     else { 
     return vy;}
@@ -78,7 +78,7 @@ public static void main (String args[]){
 
     Particle[] theArray=new Particle[MAXPARTICLES];
     Particle testPart=new Particle();
-    System.out.println("Initialised particle " + testPart.getIndex);
+    System.out.println("Initialised particle " + testPart.getIndex());
     /* for (int i=0; i<MAXPARTICLES; i++){
         posx=(int) (WIDTH*Math.random());
         posy=(int) (HEIGHT*Math.random());
