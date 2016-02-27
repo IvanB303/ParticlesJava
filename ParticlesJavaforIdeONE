@@ -46,7 +46,7 @@ public int getPosition(int flag){
     else { 
     return y;}
 }
-public double getMass(double newMass){
+public double getMass(){
     return mass;
 }
 public double getVelocity(int flag){
