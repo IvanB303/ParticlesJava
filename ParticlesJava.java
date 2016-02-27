@@ -79,6 +79,9 @@ public static void main (String args[]){
     Particle[] theArray=new Particle[MAX_PARTICLES];
     Particle testPart=new Particle();
     System.out.println("Initialised particle " + testPart.getIndex());
+    for (int j=0; j<MAX_PARTICLES; j++){
+        theArray[j]=new Particle();
+    }
     for (int i=0; i<MAX_PARTICLES; i++){
         posx=(int) (WIDTH*Math.random());
         posy=(int) (HEIGHT*Math.random());
