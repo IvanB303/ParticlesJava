@@ -64,20 +64,23 @@ public double getVelocity(int flag){
 
 
 
-
 class ParticleProg{
 
 
 public static void main (String args[]){
         
-    int MAX_PARTICLES=100;
+    int MAX_PARTICLES=0;
     int HEIGHT=640,posx;
     int WIDTH=480,posy;
     double maxMass=6.0,velx,vely;
     Particle[] theArray;
-
+     
+     System.out.println("Enter the maximum number of particles");
+     Scanner input=new Scanner(System.in);
+     MAX_PARTICLES=input.nextInt();
+    
     Particle[] theArray=new Particle[MAX_PARTICLES];
-    Particle testPart=new Particle();
+
     System.out.println("Initialised particle " + testPart.getIndex());
     for (int j=0; j<MAX_PARTICLES; j++){
         theArray[j]=new Particle();
